@@ -1,3 +1,7 @@
-print("Halo! Ini adalah kode yang dibuat di Windows.")
-print("Dan sekarang berjalan di dalam Ubuntu Server via Git!")
-print("Nabilah Add Row Baru")
+# Program Menghitung Luas Segitiga
+alas = float(input("Masukkan alas segitiga: "))
+tinggi = float(input("Masukkan tinggi segitiga: "))
+
+luas = 0.5 * alas * tinggi
+
+print("Luas segitiga adalah:", luas)
